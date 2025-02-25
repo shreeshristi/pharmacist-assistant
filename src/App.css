@@ -1,0 +1,192 @@
+/* General Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f0f4f8;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header Styles */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2c3e50;
+  padding: 15px 20px;
+  border-radius: 8px;
+  color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+header button {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+header button:hover {
+  background-color: #2980b9;
+}
+
+/* Main Content Styles */
+main {
+  margin-top: 20px;
+}
+
+.upload-section, .output-section, .visualization-section {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.upload-section h2, .output-section h2 {
+  margin-top: 0;
+  font-size: 20px;
+  color: #2c3e50;
+}
+
+.upload-box {
+  border: 2px dashed #3498db;
+  padding: 40px;
+  text-align: center;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: border-color 0.3s ease;
+}
+
+.upload-box:hover {
+  border-color: #2980b9;
+}
+
+.upload-label {
+  font-size: 16px;
+  color: #3498db;
+  cursor: pointer;
+}
+
+#prescriptionOutput {
+  font-size: 16px;
+  color: #333;
+}
+
+#visualizeBtn {
+  background-color: #27ae60;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+#visualizeBtn:hover {
+  background-color: #219653;
+}
+
+/* Login and Signup Page Styles */
+.login-container, .signup-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.login-container h2, .signup-container h2 {
+  margin-top: 0;
+  font-size: 24px;
+  color: #2c3e50;
+  text-align: center;
+}
+
+.login-container form, .signup-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.login-container input, .signup-container input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.login-container input:focus, .signup-container input:focus {
+  border-color: #3498db;
+}
+
+.login-container button, .signup-container button {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-container button:hover, .signup-container button:hover {
+  background-color: #2980b9;
+}
+
+.login-container p, .signup-container p {
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+}
+
+.login-container a, .signup-container a {
+  color: #3498db;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.login-container a:hover, .signup-container a:hover {
+  color: #2980b9;
+}
+.upload-section .output-text {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.upload-section .output-text h3 {
+  margin-top: 0;
+  font-size: 18px;
+  color: #2c3e50;
+}
+
+.upload-section .output-text p {
+  font-size: 16px;
+  color: #333;
+  white-space: pre-wrap; /* Preserve line breaks in text */
+}
